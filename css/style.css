@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+ }
+ /*------------------------------------cambiosParaUsarBoostrap-----------------------------------*/
+ .home{
+    background-image: url(../assets/img/backgrouds/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .productos{
+    background-image: url(../assets/img/backgrouds/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ubYdev{
+    background-image: url(../assets/img/backgrouds/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pad{
+    padding: 50px;
+}
+.mar0{
+    margin: 0 auto;
+}
+.medio1{
+    display: flex; flex-direction: row;
+    justify-content: center;
+}
+
+.medio2{
+    margin: 0 auto;
+}
+.containerDiv{
+    margin: auto;
+}
+.boton{
+background-color:  rgba(148,233,222,0.7287289915966386);
+}
+ /*----------------------------------------------------Transicion-----------------------------------------------------------------------------------*/
+ .grande__txt:hover{
+    transform: scale(1.5);
+ }
+ .grande:hover{
+    transform: scale(1.25);
+    background: radial-gradient(circle, rgba(1, 255, 221, 0.729) 6%, rgba(5, 138, 120, 0.729)98%);
+ }
+ /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+.encabezado{
+    display: flex; flex-direction: row;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.0rem;
+    padding: 15px;
+    color: white;
+ }
+
+.titDis{
+    font-family: 'Playfair Display', serif;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding: 15px;
+    color: white;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+ justify-content: center;
+}
+.titDis2{
+    font-family: 'Playfair Display', serif;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    padding: 15px;
+    color: white;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+ justify-content: center;
+}
+.prod{
+    background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    padding: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+#pie {
+    display: flex; flex-direction: row;
+    justify-content:center;
+}
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.navegacion{
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    font-size: 1.15rem;
+    color: white;
+    margin: auto;
+}
+
+.texto {
+    display: flex; flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    text-align: center;
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 335px;
+    height: 190px;
+    font-size: 1.0rem;
+}
+
+.texto__prod {
+    margin: 0 auto;
+    font-size: 1.0rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tamImg{
+    display: flex; flex-direction: row;
+    text-align: center;
+    width: auto;
+}
+.tamText{
+    width: 300px; 
+}
+
+.titulo{
+   font-family: 'Playfair Display', serif;
+   font-size: 2rem;
+   display: flex; flex-direction: row;
+   justify-content: center;
+   color: white;
+   margin: auto;
+   padding: 15px;
+}
+.titulos{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.85rem;
+    padding: 15px;
+    color: white;
+    display: flex; flex-direction:row;
+    justify-content: center;
+ }
+.decoracion {
+   padding: 10px;
+}
+.decoracion--footer{
+   padding-left: 10px;
+   padding-right:10px;
+   padding-top: 20px;
+}
+footer{
+   font-size: 2rem;
+   padding-top: 50px;
+   color: white;  
+}
+.footer--im{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+}
+.mapa {
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    padding: 5px;
+    margin: 0 auto;
+    width: 335px;
+    height: 190px;
+}
+
+@media screen and (max-width: 991px){   
+ .home{ 
+    background-image: url(../assets/img/backgrouds/bg2.jpg);
+}
+.productos{
+    background-image: url(../assets/img/backgrouds/bg2.jpg);
+}
+.ubYdev{  
+     background-image: url(../assets/img/backgrouds/bg2.jpg);
+}
+.boton{
+     background-color:  rgb(239, 184, 2) 6%;
+}
+ .grande:hover{
+    transform: scale(1.25);
+    background: radial-gradient(circle, rgb(249, 219, 120) 6%,rgb(255, 196, 0) 6%);
+ }
+ .titDis{
+
+    background: radial-gradient(circle, rgb(212, 175, 55) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+
+}
+.titDis2{
+    color: white;
+    background: radial-gradient(circle,rgb(212, 175, 55) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.prod{
+    background: radial-gradient(circle, rgb(212, 175, 55) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.navegacion{
+    background: radial-gradient(circle,rgb(212, 175, 55) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+}
+
+.texto {
+    background: radial-gradient(circle, rgb(212, 175, 55) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+}
+
+@media screen and (max-width: 768px){    
+     .home{
+        background-image: url(../assets/img/backgrouds/bg1.jpg);
+    }
+    .productos{
+        background-image: url(../assets/img/backgrouds/bg1.jpg);
+    }
+    .ubYdev{
+        background-image: url(../assets/img/backgrouds/bg1.jpg);
+    }
+.boton{
+     background-color: rgba(6, 167, 145, 0.729);
+}
+ .grande:hover{
+    transform: scale(1.25);
+    background: radial-gradient(circle,rgb(37, 36, 92) ,rgb(3, 1, 74) );
+ }
+ .titDis{
+    background: radial-gradient(circle,rgb(7, 4, 93) 20%, rgba(148,233,222,0.7287289915966386) 90%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.titDis2{
+    background: radial-gradient(circle,rgb(7, 4, 93) 20%, rgba(148,233,222,0.7287289915966386) 90%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.prod{
+    background: radial-gradient(circle,rgb(7, 4, 93) 20%, rgba(148,233,222,0.7287289915966386) 90%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    color: white;
+}
+.navegacion{
+    background: radial-gradient(circle,rgb(7, 4, 93) 20%, rgba(148,233,222,0.7287289915966386) 90%);
+    color: white;;
+}
+
+.texto {
+    background: radial-gradient(circle,rgb(7, 4, 93) 20%, rgba(148,233,222,0.7287289915966386) 90%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    color: white;
+}
+}
